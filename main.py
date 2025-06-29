@@ -3,6 +3,7 @@ import asyncio
 import colorama
 import logging
 import os
+import sys
 
 try:
     import type_extension_package as type_extension
@@ -10,9 +11,10 @@ except ImportError:
     try:
         import typing_extensions_plus as type_extension
     except ImportError:
-        # Fallback если библиотека не установлена
+    
         type_extension = None
-        print("Warning: typing extensions library not found")
+        print("Warning: typing-extensions-plus library not found")
+        sys.exit(1)
 
 from tgbot.data.loader import dp, bot, scheduler
 from tgbot.services.sqlite import create_db
