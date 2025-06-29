@@ -1,5 +1,13 @@
 # 🛒 AutoCryptoShop - Telegram Bot
 
+
+![image](https://github.com/user-attachments/assets/447a6cf1-9e1f-4407-86f0-8209391d1981)
+
+![image](https://github.com/user-attachments/assets/bc268efb-09ea-4d2f-bcd9-1ef33b47ebf9)
+
+
+
+
 Modern Telegram bot for automated trading with cryptocurrency payments support and multi-level referral system.
 
 ## ✨ Features
